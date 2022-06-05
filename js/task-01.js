@@ -1,0 +1,13 @@
+const el = categories.querySelectorAll("li.item");
+const category = categories.querySelectorAll("h2");
+const itemsOfCategory = categories.querySelectorAll(".item");
+console.log("Number of categories: "+el.length);
+console.log(" ");
+console.log("Category: "+category[0].textContent);
+console.log("Elements: "+itemsOfCategory[0].lastElementChild.querySelectorAll("li").length);
+console.log(" ");
+console.log("Category: "+category[1].textContent);
+console.log("Elements: " +itemsOfCategory[1].lastElementChild.querySelectorAll("li").length);
+console.log(" ");
+console.log("Category: "+category[2].textContent);
+console.log("Elements: "+itemsOfCategory[2].lastElementChild.querySelectorAll("li").length);
